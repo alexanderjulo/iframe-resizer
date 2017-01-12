@@ -260,6 +260,8 @@
 				iframeWidth:  iFramePosition.width,
 				clientHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0),
 				clientWidth:  Math.max(document.documentElement.clientWidth,  window.innerWidth  || 0),
+				clientInnerHeight: window.innerHeight || 0,
+				clientInnerWidth: window.innerWidth || 0,
 				offsetTop:    parseInt(iFramePosition.top  - bodyPosition.top,  10),
 				offsetLeft:   parseInt(iFramePosition.left - bodyPosition.left, 10),
 				scrollTop:    window.pageYOffset,
